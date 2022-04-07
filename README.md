@@ -8,7 +8,7 @@ for externel crates.
 git clone https://github.com/compiler-explorer/compiler-explorer.git
 git clone https://github.com/compiler-explorer/tools.git compiler-explorer-tools
 cp compiler-explorer/etc/config/rust.defaults.properties compiler-explorer/etc/config/rust.local.properties
-cargo build --manifest-path tools/rust/Cargo.toml -r
+cargo build --manifest-path compiler-explorer-tools/rust/Cargo.toml -r
 ```
 2. Edit compiler-explorer/etc/config/rust.local.properties
 ```
