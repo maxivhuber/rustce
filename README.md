@@ -25,3 +25,8 @@ make
 bash <script> <git repo> <target dir>
 bash extract_rlib.sh https://github.com/rayon-rs/rayon.git ./libs
 ```
+
+### You can find rustc executing
+```
+which rustc
+```
